@@ -1,9 +1,0 @@
-# Maximum lifetime of End Crystals (in seconds)
-crystal-lifetime-seconds: 300
-
-# List of worlds where End Crystals should be cleaned up
-enabled-worlds:
-  - world
-  - world_nether
-  - world_the_end
-  - Spawn
