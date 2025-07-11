@@ -1,0 +1,19 @@
+name: SmartCrystalCleaner
+version: 1.0
+main: me.tuanvo0022.SmartCrystalCleaner
+api-version: 1.20
+description: Removes unused End Crystals after a set time to reduce lag.
+author: Tuanvo0022
+folia-supported: true
+
+commands:
+  smartcrystalcleaner:
+    description: Reload the SmartCrystalCleaner plugin.
+    usage: /<command> reload
+    permission: smartcrystalcleaner.reload
+    aliases: [scc, crystalcleaner]
+
+permissions:
+  smartcrystalcleaner.reload:
+    description: Allows reloading the SmartCrystalCleaner plugin.
+    default: op
